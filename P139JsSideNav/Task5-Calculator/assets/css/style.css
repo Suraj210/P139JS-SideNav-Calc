@@ -1,0 +1,25 @@
+.actions {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.numbers {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.numbers div {
+  width: 45%;
+}
+
+.numbers div input {
+  width: 100%;
+}
+
+span {
+  display: none;
+  color: red;
+  margin-top: 4px;
+}

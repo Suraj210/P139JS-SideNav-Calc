@@ -1,0 +1,48 @@
+.side-nav {
+  width: 300px;
+  height: 100vh;
+  position: relative;
+  transform: translate(-250px, 93vh);
+  transition: all 1s;
+}
+
+.side-nav--display {
+  transform: translateX(0);
+  background-color: teal;
+}
+
+.side-nav ul {
+  padding-top: 80px;
+}
+
+.side-nav ul li {
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+.side-nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  transition: all 0.5s;
+}
+
+.side-nav ul li a:hover {
+  color: black;
+}
+
+.side-nav .side-nav_icons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.side-nav .side-nav_icons i {
+  font-size: 30px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.side-nav .side-nav_icons i:hover {
+  color: red;
+}
